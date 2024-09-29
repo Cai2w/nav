@@ -13,7 +13,7 @@
     (function() {
       var hm = document.createElement("script");
       hm.src = "https://hm.baidu.com/hm.js?c05bb16ea908292af9f6c513087a1cc3";
-      var s = document.getElementsByTagName("script")[0]; 
+      var s = document.getElementsByTagName("script")[0];
       s.parentNode.insertBefore(hm, s);
     })();
     </script>
@@ -114,12 +114,10 @@
                         </a>
                     </li>
                     <li>
-                        <div class="go-up">
-                            <a href="#" class="smooth" rel="go-top">
-                                <i class="fa-solid fa-arrow-up"></i>
-                                <span class="title">回到顶部</span>
-                            </a>
-                        </div>
+                        <a href="#" class="smooth">
+                            <i class="fa-solid fa-arrow-up"></i>
+                            <span class="title">回到顶部</span>
+                        </a>
                     </li>
 
 
@@ -1183,7 +1181,7 @@
                setTimeout(function(){
                     _this.find('ul').attr("style","")
                }, 300);
-              
+
             } else {
                 $('.has-sub ul').each(function(id,ele){
                     var _that = $(this)
